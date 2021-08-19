@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="navbar">
+                <h1>Dojonary</h1>
+                <input type="text" name="Search" id="search" placeholder="Search...">
+                <button id="Login" onclick="log(this)">Login</button>
+            </div>
+        </div>
+        <div class="page">
+            <div class="left">
+                <div class="boxleft">
+                    <div class="leftleft">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <input type="button" onclick="alert('Ninja was liked')" value="13 likes" id="like">
+                    </div>
+                    <div class="leftright">
+                        <p>A practicioner skilled in the</p><p><a href="#">Japanese</a> art of <a href="#">Ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="boxleft">
+                    <div class="leftleft">
+                        <h1>ninja</h1>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <input type="button" onclick="alert('Ninja was liked')" value="37 likes" id="like">
+                    </div>
+                    <div class="leftright">
+                        <p> A <a href="#">programmer</a> who breaks</p><p>down problems with <a href="#">zen</a>-like</p><p>focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="topright">Dojonary is<p>defined by <span class="bigyou">YOU</span></p></div>
+                <button id="define" onclick="addd(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
